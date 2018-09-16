@@ -1,0 +1,140 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-16 21:12:32
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-16 21:36:52
+*/
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+    box-sizing:border-box;
+    text-decoration: none;
+
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+body{
+	width: 100%;
+	height: 100%;
+	background-image: url('../img/denglu3.png');
+	background-position: -1.5rem center;
+	background-size: 9.14rem 13.7rem;
+	background-repeat: no-repeat;
+}
+/* 媒体查询 屏幕的最小宽度 */
+@media screen and (min-width:360px){
+    html{
+        font-size: calc(360/750*100px);
+    }
+}
+@media screen and (min-width:375px){
+    html{
+        font-size: calc(375/750*100px);
+    }
+}
+@media screen and (min-width:414px){
+    html{
+        font-size: calc(414/750*100px);
+    }
+}
+@media screen and (min-width:412px){
+    html{
+        font-size: calc(412/750*100px);
+    }
+}
+@media screen and (min-width:750px){
+    html{
+        font-size: calc(750/750*100px);
+    }
+}
+@media screen and (min-width:768px){
+    html{
+        font-size: calc(768/750*100px);
+    }
+}
+@media screen and (min-width:1024px){
+    html{
+        font-size: calc(1024/750*100px);
+    }
+}
+nav{
+	width: 100%;
+	height: 100%;
+	
+}
+nav .bottom{
+	width: 100%;
+}
+nav .bottom .register{
+	height: 0.63rem;
+	width: 1.44rem;
+	border-radius: 0.33rem;
+	color: #fff;
+	font-size: 0.34rem;
+	background: #f31a68;
+	text-align: center;
+	line-height: 0.63rem;
+	position: fixed;
+	top: 0.31rem;
+	right: 0.46rem;
+}
+nav .top .number{
+	width: 6.07rem;
+	height: 1.08rem;
+	border-radius: 0.2rem;
+	background:#f31a68;
+	display: flex;
+	padding:0.1rem;
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	top: 2.82rem;
+	left: 0.68rem;
+	padding-right: 0.3rem;
+}
+nav .top .password{
+	width: 6.07rem;
+	height: 1.08rem;
+	border-radius: 0.2rem;
+	background:#f31a68;
+	display: flex;
+	padding:0.1rem;
+	
+}
+nav .top .password:nth-child(2){
+	position: fixed;
+	top: 4.13rem;
+	left: 0.68rem;
+}
+nav .top .password:nth-child(3){
+	position: fixed;
+	top: 5.48rem;
+	left: 0.68rem;
+}
+nav .top .password:nth-child(4){
+	position: fixed;
+	top: 6.79rem;
+	left: 0.68rem;
+}
+nav .top .sign{
+	display: block;
+	width: 4.52rem;
+	height: 0.72rem;
+	border-radius: 0.36rem;
+	background:#f31a68;
+	color: #fff;
+	font-size: 0.4rem;
+	text-align: center;
+	line-height: 0.72rem;
+	position: fixed;
+	bottom: 3.71rem;
+	left: 1.5rem;
+}
+nav .top .number a{
+	font-size: 0.24rem;
+	color: #fff;
+	line-height: 0.9rem;
+}

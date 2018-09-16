@@ -1,0 +1,338 @@
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+    box-sizing:border-box;
+    text-decoration: none;
+
+}
+a{
+    color: #f31a68;
+}
+/* 媒体查询 屏幕的最小宽度 */
+@media screen and (min-width:360px){
+    html{
+        font-size: calc(360/750*100px);
+    }
+}
+@media screen and (min-width:375px){
+    html{
+        font-size: calc(375/750*100px);
+    }
+}
+@media screen and (min-width:414px){
+    html{
+        font-size: calc(414/750*100px);
+    }
+}
+@media screen and (min-width:412px){
+    html{
+        font-size: calc(412/750*100px);
+    }
+}
+@media screen and (min-width:750px){
+    html{
+        font-size: calc(750/750*100px);
+    }
+}
+@media screen and (min-width:768px){
+    html{
+        font-size: calc(768/750*100px);
+    }
+}
+@media screen and (min-width:1024px){
+    html{
+        font-size: calc(1024/750*100px);
+    }
+}
+body{
+    width: 100%;
+    height: 100%;
+    overflow-y:auto;
+}
+.box{
+    padding-top: 0.22rem;
+    padding-left: 0.4rem;
+    width: 100%;
+    height: 0.8rem;
+    background-color: #f31a68;
+}
+.box p{
+    color: #ffffff;
+    font-size: 0.36rem;
+    font-weight: 500;
+    float:left;
+}
+.box .search{
+    width: 4.42rem;
+    height: 0.4rem;
+    background: #978f92;
+    float: left;
+    border-radius: 0.2rem;
+    margin-left: 0.38rem;
+    padding-left: 0.15rem;
+    padding-top: 0.05rem;
+    margin-top: 0.03rem;
+}
+
+
+.box input{
+    float:left;
+    background: #978f92;
+    outline: none;
+    border: 0;
+    margin: 0 auto;
+}
+.box .search i{
+    float: left;
+    margin-right: 0.1rem;
+    font-size: 0.35rem;
+}
+.box .Photograph{
+    width: 0.5rem;
+    height: 0.5rem;
+    float: left;
+    background: rgba( 252,59,127,1);
+    padding: 0.1rem;
+    border-radius: 0.5rem;
+    margin-left: 0.2rem;
+}
+Broadcast{
+    height: 2.45rem;
+    width: 100%;
+}
+Broadcast .png{
+    width: 100%;
+    height: 2.45rem;
+    background-image: url('../img/lunbo.png');
+    background-size: 100%  2.45rem;
+}
+.bottom{
+    width: 100%;
+    padding: 0 0.24rem ;
+}
+.bottom div{
+    width: 100%;
+    height: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+
+}
+.bottom a{
+    display: block;
+    height: 1.5rem;
+    font-size: 0.24rem;
+    text-align: center; 
+    color: black;
+} 
+.bottom div .icon{
+    height: 0.88rem;
+    width: 0.88rem;
+    display: block;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.bottom .top{
+    margin-top: 0.14rem;
+}
+.bottom .top a:nth-child(1) .icon{ 
+    background-image: url('../img/icon1.png');
+}
+.bottom .top a:nth-child(2) .icon{ 
+    background-image: url('../img/icon2.png');
+}.bottom .top a:nth-child(3) .icon{ 
+    background-image: url('../img/icon3.png');
+}.bottom .top a:nth-child(4) .icon{ 
+    background-image: url('../img/icon4.png');
+}.bottom .down a:nth-child(1) .icon{ 
+    background-image: url('../img/icon5.png');
+}.bottom .down a:nth-child(2) .icon{ 
+    background-image: url('../img/icon6.png');
+}.bottom .down a:nth-child(3) .icon{ 
+    background-image: url('../img/icon7.png');
+}.bottom .down a:nth-child(4) .icon{ 
+    background-image: url('../img/icon8.png');
+}
+.bottom .business{
+    background-image: url('../img/jingpin.png');
+    background-size: 100% 0.98rem;
+    height: 0.98rem;
+}
+.bottom .speed ul{
+    display: block;
+    width: 3.49rem;
+    height: 2rem;
+    overflow: hidden;
+    font-size: 0.24rem;
+    position: relative;
+    color: #f31b67;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.bottom .sprrd ul li{
+    display: block;
+    width: 1.56rem;
+    height: 1rem;
+    position: relative;
+}
+.bottom .speed ul:nth-child(2) li:nth-child(1){
+    background-image: url('../img/jingpin2.png');
+    width: 1.58rem;
+    height: 1rem;
+    background-size: 100% 100%;
+}
+.bottom .speed ul li:nth-child(2){
+    background-image: url('../img/jingpin3.png');
+    width: 1.58rem;
+    height: 1rem;
+    background-size: 100% 100%;    
+}
+.bottom .speed ul li:nth-child(3){
+    width: 3.3rem;
+    height: 1rem;
+    background-size: 100% 100%;
+    background-image: url('../img/jingpin4.png')
+}
+.bottom .speed ul:nth-child(1){
+    background: #e7f5fe;
+    padding: 0.7rem 0 0 0.9rem;
+
+}
+.bottom .speed ul h6{
+    position: absolute;
+    font-size: 0.24rem;
+    top: 0.1rem;
+    left: 0.2rem;
+}
+.bottom .speed ul p{
+    position: absolute;
+    font-size: 0.18rem;
+    top: 0.45rem;
+    left: 0.2rem;
+}
+.bottom .speed ul:nth-child(1) li{
+    width: 2.46rem ;
+    height: 1.34rem;
+    background-image: url('../img/jingping1.jpg');
+    background-size: 2.46rem 1.34rem;
+    background-repeat: no-repeat;
+    /* background-position: 0.5rem 0.9rem; */
+} 
+.picture{
+    background-image: url('../img/shangjia.png');
+    background-size: 100% 100%;
+    margin-top: 0.3rem;
+}
+.bottom .express{
+    width: 100%;
+    height: 0.8rem;
+    display: flex;
+    justify-content: space-around;
+}
+.express ul{
+    width: 1.3rem;
+    height: 0.4rem;
+    border: 2px solid #f31a68;
+    border-radius: 0.26rem;
+    text-align: center;
+}
+.express ul li{
+    font-size: 0.18rem;
+}
+nav ol{
+    display: block;
+    width: 100%;
+    height: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.24rem;
+}
+
+nav ol li:nth-child(1){
+    width: 2.05rem;
+    height: 1.46rem;
+    background-image: url('../img/shousi.png');
+    background-size: 2.05rem 1.46rem;
+    background-repeat: no-repeat;
+}
+nav ol li:nth-child(2){
+    width: 3.74rem;
+}
+nav ol li:nth-child(3){
+    width: 1.2rem;
+}
+nav ol h5{
+    font-size: 0.26rem;
+    font-weight: 500;
+}
+nav ol p{
+    font-size: 0.18rem;
+}
+nav ol p b{
+    display: block;
+    height: 0.2rem;
+    width: 1rem;
+    box-shadow: 0 0 0.1rem #ff9600;
+    text-align: center;
+    border-radius: 0.1rem;
+    line-height: 0.2rem;
+    float: left;
+    font-weight: 400;
+
+}
+nav ol p:nth-child(4){
+    margin-top: 0.1rem;
+}
+nav ol li h6{
+    font-size: 0.16rem;
+    font-weight: 400;
+
+
+}
+footer{
+    width: 100%;
+    height: 1.4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    background: white;
+
+}
+footer div{
+    width: 0.8rem;
+    height: 0.8rem;
+    text-align: center;
+    line-height: 1.4rem;
+
+}
+footer div a {
+    display: block;
+    width: 0.8rem;
+    height: 0.8rem;
+    font-size: 0.4rem;
+    line-height: 1.4rem;
+    position: relative;
+
+}
+footer div a i{
+    color: #333;
+    line-height: 0.8rem;
+    position: absolute;
+    top: 0.05rem;
+    left: 0.15rem;
+}
+footer div:nth-child(1){
+    width: 0.8rem;
+    height: 0.8rem;
+    background: #f31a68;
+    
+}
+footer div:nth-child(1) a i{
+    color: white;
+}
